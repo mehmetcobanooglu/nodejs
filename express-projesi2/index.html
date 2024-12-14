@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Yönetimi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kullanıcı Yönetim Sistemi</h1>
+
+    
+    
+    <form id="kullaniciForm">
+        <h2>Yeni Kullanıcı Ekle</h2>
+       
+        <input type="text" id="ad" name="ad" required placeholder="İsim Giriniz...">
+        <br><br>
+        
+        <input type="email" id="email" name="email" required placeholder="E-Mail Giriniz...">
+        <br><br>
+        <button class="btnEkle" type="submit">Kullanıcı Ekle</button>
+    </form>
+
+    <hr>
+
+    <div class="liste">
+        <h2>Tüm Kullanıcılar</h2>
+        <ul id="kullaniciListesi"></ul>
+    </div>
+    
+
+    <hr>
+
+    <div class="silKutusu">
+        <h2>Kullanıcı Sil</h2>
+        <label for="kullaniciId">Silmek için Kullanıcı ID girin:</label>
+        <input type="number" id="kullaniciId" name="kullaniciId">
+        <button class="btnSil" id="silButton">Sil</button>
+    </div>
+    
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
