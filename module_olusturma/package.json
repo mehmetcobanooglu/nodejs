@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "global": "^4.4.0",
+    "module_olusturma": "file:"
+  },
+  "name": "module_olusturma",
+  "version": "1.0.0",
+  "main": "server3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
